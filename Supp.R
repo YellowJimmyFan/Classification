@@ -1,5 +1,5 @@
 ---
-title: "Stat441 Final Project"
+title: "Supp code"
 output: pdf_document
 ---
 

@@ -1,0 +1,143 @@
+---
+title: "STAT441 Final Project Variables"
+output: pdf_document
+---
+
+**Predictors(categorical):**
+
+**Education:**
+
+* *edu1*: Can [Name] read the newspaper?
+* *edu2*: Can [Name] write a one page personal letter?
+* *edu3*: Has [Name] ever attended school?
+* *edu4*: What level of grade does [Name] have?
+* *edu5*: What is the highest grade [Name] have completed in school?
+* *edu6*: What is the highest diploma [Name] have attained?
+* *edu8*: Did [Name] enroll or has you plans to enroll in school this academic year?
+* *edu9*: Is [Name] going to attend the school this academic year?
+* *edu10*: Why  [Name] is not attending school?
+* *edu11*: Why didn't [Name] enroll in school this year?
+* *edu12*: What is the level of grade of [Name] currently?
+* *edu13*: In what grade is [Name] currently enrolled?
+* *edu14*: Did [NAME] enroll in the past academic year?
+* *edu15*: Did [NAME] attend the school in past academic year?
+* *edu16*: Why didn't [NAME] attend school in past academic year?
+* *edu17*: Why didn't [NAME] enroll in school in the past accademic year?
+* *edu19*: Is [NAME] 19 YEARS OLD OR LESS?
+* *edu20*: Does [Name] intend to return to school?
+* *edu21*: What was the level of grade of [Name] in the past academic year?
+* *edu22*: In what grade was [Name] enrolled in the past academic year?
+* *edu23*: Is the school that [Name] attend in public or private?
+* *edu25*: Does [Name] usually stay in another location closer to your school during the school term?
+* *edu28*: How does [Name] generally go to school?
+* *edu30*: Have [Name] received a transportation subsidy in this academic year? 
+* *edu32*: Did your household buy any supplementary text books for your use in class for previous academic year?
+* *edu42*: Where do you  purchase mainly the required textbooks?
+* *edu43*: Did this source have the full list of required books by the school during the first week of the school previous academic year?
+* *edu44*: How long did it take till you could find all the required books? 
+* *edu45*: Have you heard of the textbook subsidies program in Albania implemented by the government? 
+* *edu46*: Did [Name] claim the subsidy rebate for the school textbooks? 
+* *edu48*: How long did it take for you to receive the subsidy rebate? 
+* *edu50*: Has [Name] received any private tutoring during this academic year?
+* *edu52*: Who is tutoring [Name]? 
+* *edu53*: How often has [Name] been receiving tutoring per month in the previous academic year?
+* *edu54*: Is [Name] paying for the tutoring?
+* *edu57*: Did [Name] household have to provide to school and teacher money and gifts IN KIND in the previous academic year?
+* *edu59*: Did [Name] household have to provide to school and teacher money and gifts SERVICE in the previous academic year?
+* *edu61*: Has [Name]  been absent from school one or more days in the past 4 weeks?
+* *edu63*: Why did [Name] miss school for this time?
+* *edu64*: Is [Name] currently receiving a scholarship or subsidy to support your education?
+* *edu66*: How much time per day has [Name] spent on homework over the past 4 weeks, on average?
+
+**Household:**
+
+* *hh1*: SEX
+* *hh2*: RELATIONSHIP TO HEAD
+* *hh6*: What is the present marital status of [NAME]?
+* *hh7*: Does the spouse/partner of [NAME] live in this household now?
+* *hh8*: Copy the ID CODE of the spouse/ partner of [NAME].
+* *hh10*: Household Member Present?
+* *hh11*: Does the natural mother of [NAME] live in this household now?
+* *hh12*: Copy the ID CODE of the mother of [NAME].
+* *hh13*: What is the highest educational level achieved by the mother of [NAME]?
+* *hh14*: Is the mother of [NAME] still living?
+* *hh17*: Does the natural father of [NAME] live in this household now?
+* *hh18*: Copy the ID CODE of the father of [NAME].
+* *hh19*: What is the highest educational level achieved by the father of [NAME]?
+* *hh20*: Is the father of [NAME] still living?
+
+
+\newpage
+
+**Predictors(continuous):**
+
+**Education:**
+
+* *edu7*: How many years of preschool did [Name] attend?
+* *edu18*: How old was [Name] when completed last year of full-time education whether at school or university?
+* *edu24*: How far away from this dwelling is the school that [Name] attend?
+* *edu26*: How long does it take [Name] to travel to her/his school from your home or the location you usually stay in during the school term in *HOURS(Missing -> 0)*?
+* *edu27*: How long does it take [Name] to travel to her/his school from your home or the location you usually stay in during the school term in *Minutes*?
+* *edu29*: How much did [Name] spend on average per month on transportation?
+* *edu31*: What was the value of the transportation subsidy for the previous academic year*(Missing -> 0)*?
+* *edu33*: How much has your household spent on your education in the previous academic YEAR for School fees and tuition?
+* *edu34*: How much has your household spent on your education in the previous academic YEAR for Uniforms?
+* *edu35*: How much has your household spent on your education in the previous academic YEAR for Authorized text books for classes?
+* *edu36*: How much has your household spent on your education in the previous academic YEAR for Supplementary text books?
+* *edu37*: How much has your household spent on your education in the previous academic YEAR for Other educational materials (pens, exercise books, etc.)?
+* *edu38*: How much has your household spent on your education in the previous academic YEAR for Meals and/or lodging?
+* *edu39*: How much has your household spent on your education in the previous academic YEAR for School excursions?
+* *edu40*: How much has your household spent on your education in the previous academic YEAR for Other expenses?
+* *edu41*: How much has your household spent on your education in the previous academic YEAR for In total?
+* *edu47*: How much was the value of the subsidy claimed? 
+* *edu49*: How much did [Name] receive in the textbook subsidy rebate? 
+* *edu51*: In how many subjects have [Name] received tutoring during this academic year*(Missing -> 0)*?
+* *edu55*: How much did [Name] payed per hour?
+* *edu56*: How much has [Name] spent per month on average for this tutoring in the previous academic year?
+* *edu58*: How much money provided to school or teacher?
+* *edu60*: How long(in hours) provided to school or teacher?
+* *edu62*: How many days of school has [Name] missed in the past 4 weeks?
+* *edu65*: What is the value of the scholarship or subsidy received for the previous academic year?
+
+**Household:**
+
+* *hh3*: DATE OF BIRTH in DAYMONTHDATE
+* *hh4*: How old is [NAME] in YEARs?
+* *hh5*: How old is [NAME] in MONTHs(range 1 - 12)?
+* *hh9*: For how many months during the past 12 months (since MONTH/ YEAR) has he/she been away from this household? 
+* *hh15*: How old was the mother of [NAME] when she died?
+* *hh16*: What is the age of the mother of [NAME]?
+* *hh21*: How old was the father of [NAME] when he died?
+* *hh22*: What is the age of the father of [NAME]?
+
+\newpage
+
+**Passed questions:**
+
+* *edu8*: IF answer == NO, skip edu9, edu10.
+* *edu9*: IF answer == YES, skip edu10, edu11.
+* *edu10*: IF answered(no matter what), skip edu11, edu12, edu13.
+* *edu11*: IF answered(no matter what), skip edu12, edu13.
+* *edu14*: IF answer == NO, skip edu15, edu16.
+* *edu15*: IF answer == YES, skip edu16, edu17, edu18, edu19, edu20.
+* *edu16*: IF answered(no matter what), skip edu16, edu17, edu18, edu19.
+
+* *hh4*: IF age < 12, skip hh5, hh6, hh7, hh8.
+* *hh6*: IF status == 4 or 5, skip hh7, hh8.
+* *hh7*: IF answer == NO, skip hh8.
+* *hh11*: IF answer == NO, skip hh12.
+* *hh12*: IF this question is answered(no matter what), skip hh13, hh14, hh15, hh16.
+* *hh14*: IF this question is answered(no matter what), skip hh15.
+* *hh15*: IF this question is answered(no matter what), skip hh16.
+* *hh17*: IF answer == NO, skip hh18.
+* *hh20*: IF answer == YES, skip hh21.
+
+**Next person questions:**
+
+* *edu3*: IF answer == NO, next person.
+* *edu17*: IF answer == 13, next person.
+* *edu19*: IF answer == NO, next person.
+* *edu20*: IF answer == NO, next person.
+
+* *hh18*: IF answered(no matter what), next person.
+* *hh21*: IF answered(no matter what), next person.
